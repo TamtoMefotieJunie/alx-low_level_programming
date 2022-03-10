@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o my_asm_output.s $CFILE
+gcc -S $CFILE
