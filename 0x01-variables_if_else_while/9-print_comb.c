@@ -9,15 +9,15 @@
 int main(void)
 {
 int ch;
-for (ch = '0'; ch <= '50'; ch++)
+for (ch = '0'; ch <= '9'; ch++)
 {
 putchar(ch);
-}
-for (ch = '51'; ch <= '99'; ch++)
+if (ch != '9')
 {
-putchar(ch)
-}
 putchar(',');
-putchar("");
+putchar('');
+}
+}
+putchar('\n');
 return (0);
 }
