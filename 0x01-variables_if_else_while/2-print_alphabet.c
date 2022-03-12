@@ -9,11 +9,9 @@
 int main(void)
 {
 int i;
-char text[255];
-for (i = 65; i < 91; i++)
+for (i = 'a'; i < 'z'; i++)
 {
-text[i] = i + 32;
-putchar(text[i]);
+putchar(i);
 }
-return 0;
+return (0);
 }
