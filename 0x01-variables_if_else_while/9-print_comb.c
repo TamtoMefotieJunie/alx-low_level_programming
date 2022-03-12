@@ -12,12 +12,12 @@ int ch;
 for (ch = '0'; ch <= '50'; ch++)
 {
 putchar(ch);
-putchar(', ')
+putchar(',')
 }
 for (ch = '51'; ch <= '99'; ch++)
 {
 putchar(ch)
-putchar(', ');
+putchar(',');
 }
 return (0);
 }
