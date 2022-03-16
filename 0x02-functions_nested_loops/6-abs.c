@@ -1,3 +1,4 @@
+
 /*
  * File: 6-abs.c
  * Auth: Brennan D Baraban
@@ -11,12 +12,10 @@
  *
  * Return: The absolute value of the integer.
  */
-int _abs(int i)
+int _abs(int n)
 {
-int r;
-if (i < 0)
-r = (-1) * i;
-return (r);
+if (n >= 0)
+return (n);
 else
-return (i);
+return (-n);
 }
