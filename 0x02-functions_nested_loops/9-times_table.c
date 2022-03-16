@@ -14,9 +14,9 @@ for (i = 0; i <= 9; i++)
 for (j = 0; j <= 9; j++)
 {
 if (j <= 8)
-printf("%dx%d = %d, ", j, i, i * j);
+printf("%d, ", i * j);
 else
-printf("%dx%d = %d", j, i, i * j);
+printf("%d", i * j);
 }
 }
 }
