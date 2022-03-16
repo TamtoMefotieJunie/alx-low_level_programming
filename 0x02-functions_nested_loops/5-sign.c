@@ -17,26 +17,29 @@ int print_sign(int n)
 {
 if (n > 0)
 {
+n *= 1;
 printf("+");
 _putchar(',');
 _putchar(' ');
-return (1);
+_putchar(n + '0');
 _putchar('\n');
 }
 else if (n == 0)
 {
+n *= 0;
 printf("0");
 _putchar(',');
 _putchar(' ');
-return (0);
+_putchar(n + '0');
 _putchar('\n');
 }
 else if (n < 0)
 {
+n *= -1;
 printf("-");
 _putchar(',');
 _putchar(' ');
-return (-1);
+_putchar(n + '0');
 _putchar('\n');
 }
 }
