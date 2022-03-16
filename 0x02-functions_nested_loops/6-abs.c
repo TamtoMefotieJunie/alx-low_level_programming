@@ -13,6 +13,7 @@
  */
 int _abs(int i)
 {
+int r;
 if (i < 0)
 {
 r = (-1) * i;
