@@ -20,7 +20,7 @@ for (index = 0; index < hash; index++)
 _putchar('#');
 if (hash == size)
 continue;
-_putchar('\n');	
+_putchar('\n');
 }
 }
 _putchar('\n');
