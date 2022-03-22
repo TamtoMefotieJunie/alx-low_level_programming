@@ -1,22 +1,27 @@
-/*
- * File: 5-rev_string.c
- * Auth: Brennan D Baraban
- */
-
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse.
- * @s: The string to be printed.
+ * rev_string - function that reverses a string.
+ * @s: String to reverse
+ * Return: nothing.
  */
-void print_rev(char *s)
+
+void rev_string(char *s)
 {
-int len = 0,
-int index = 0;
-while (s[index++])
-{
-len++;
-}
-for (index = len - 1; index >= 0; index--)
-_putchar(s[index]);
+	int i = 0;
+	int aux = 0;
+	char ltemp;
+
+	while (*(s + i) != '\0')
+		i += 1;
+	i -= 1;
+
+	while (aux < i)
+	{
+		ltemp = s[i];
+		s[i] = s[aux];
+		s[aux] = ltemp;
+		aux++;
+		i--;
+	}
 }
