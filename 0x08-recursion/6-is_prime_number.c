@@ -19,7 +19,6 @@ int is_divisible(int num, int div)
     if (num / 2 == div)
     return (1);
     
-    else
     return (is_divisible(num, div + 1));
 }
 
