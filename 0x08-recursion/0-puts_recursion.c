@@ -7,7 +7,7 @@
  * Return: nothing
  */
 
-void _puts(char *s)
+void _puts_recursion(char *s)
 {
 	int i = 0;
 

@@ -6,7 +6,7 @@ include "main.h"
  * Return: nothing.
  */
 
-void print_rev(char *s)
+void _print_rev_recursion(char *s)
 {
 	int i = 0;
 
