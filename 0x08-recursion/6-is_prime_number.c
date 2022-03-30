@@ -15,8 +15,10 @@ int is_divisible(int num, int div)
 {
     if (num % div == 0)
     return (0);
+
     if (num / 2 == div)
     return (1);
+    
     else
     return (is_divisible(num, div + 1));
 }
