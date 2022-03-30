@@ -1,4 +1,4 @@
-include "main.h"
+#include "holberton.h"
 
 /**
  * _print_rev_recursion - Prints a string in reverse.
