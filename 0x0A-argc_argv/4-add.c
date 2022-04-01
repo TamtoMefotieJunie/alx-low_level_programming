@@ -17,12 +17,6 @@ int main(int argc, char *argv[])
    if (argc == 0)
    printf("0\n");
 
-   if ((num1 < '0' || num1 > '9') || (num2 < '0' || num2 > '9')
-   {
-       printf("ERROR\n");
-       return (1);
-   }
-
    num1 = atoi(argv[1]);
    num2 = atoi(argv[2]);
    sum = num1 + num2;
