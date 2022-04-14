@@ -24,7 +24,7 @@ va_list args;
         if (s == NULL)
         printf("(nil)");
         else
-        printf("%s", s)
+        printf("%s", s);
 		if (i != (n - 1) && separator != NULL)
 			printf("%s", separator);
 	}
